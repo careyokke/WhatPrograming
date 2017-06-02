@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var age = parseInt(prompt("Are you older than 18??"));
+  var age = parseInt(prompt("Are you older than 18?? Please enter your age."));
 
   if (age > 18) {
     $('#age').show();
