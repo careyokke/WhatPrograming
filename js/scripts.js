@@ -9,24 +9,24 @@ $(document).ready(function() {
     var personality = $("#personality").val();
     var name  = $("#name").val();
 
-    if(interest === 'E') {
+    if(interest === 'I') {
       cnet += 1;
-    } else if (interest === 'F') {
-      ruby += 1;
-    } else if (interest === 'G') {
+    } else if (interest === 'J') {
       cssdesign += 1;
-    } else if (interest === 'H') {
+    } else if (interest === 'K') {
       javaandroid += 1;
-
+    } else if (interest === 'L') {
+      ruby += 1;
     }
-     if(experience === 'E') {
-          cnet += 1;
-        } else if (experience === 'F') {
-          ruby += 1;
-        } else if (experience === 'G') {
-          cssdesign += 1;
-        } else if (experience === 'H') {
-          javaandroid += 1;
+
+    if(experience === 'A') {
+      cnet += 1;
+    } else if (experience === 'B') {
+      ruby += 1;
+    } else if (experience === 'C') {
+      cssdesign += 1;
+    } else if (experience === 'D') {
+      javaandroid += 1;
     }
 
     if(personality === 'E') {
@@ -46,7 +46,7 @@ $(document).ready(function() {
       $(".javaandroid").hide();
     } else if (cssdesign >= ruby && cssdesign >= javaandroid && cssdesign >= cnet) {
       $(".cssdesign").show();
-      $(".sandy").hide();
+      $(".cnet").hide();
       $(".ruby").hide();
       $(".javaandroid").hide();
     } else if (ruby >= cnet && ruby >= javaandroid && ruby >= cssdesign) {
@@ -62,8 +62,7 @@ $(document).ready(function() {
     }
       $("#foot").show();
       $(".name").text(name);
-
-
+    
     event.preventDefault();
   });
 });

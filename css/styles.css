@@ -1,3 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+p,img {
+  text-align: center;
+
+}
+
+span {
+  font-weight: bold;
+}
+li {
+
+  font-size: 30px;
+
+}
+p {
+  font-size: 50px;
+
+
+}
+
+img {
+
+
+}
+
 .ruby, .cssdesign, .javaandroid, .cnet ,#foot {
   display: none;
 }
