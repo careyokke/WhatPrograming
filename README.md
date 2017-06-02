@@ -1,22 +1,24 @@
-Careyokke
+# Careyokke
 
-06.02.2017
+# 06.02.2017
 
-by Yokke Hargono
+# by Yokke Hargono
 
-Description:
+# Description:
+Making a website about me
 
-WhatProgramming
+## Technologies used:
+<ul>
+<li> Terminal </li>
+<li> Bootstrap </li>
+<li> CSS </li>
+<li> HTML </li>
+<li> Atom </li>
+<li> Git </li>
+<li> GitHub </li>
+<li> JavaScript </li>
+<li> JQuery </li>
 
-Technologies used:
+</ul>
 
-Terminal
-Bootstrap
-CSS
-HTML
-Atom
-Git
-JavaScript
-jQuery
-GitHub
 Copyright (c) 2017 Careyokke
