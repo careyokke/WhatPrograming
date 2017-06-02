@@ -17,7 +17,7 @@ $(document).ready(function() {
     var cssdesign = 0;
     var cnet = 0;
     var ruby = 0;
-    var interest = parseInt($("#interest").val());
+    var interest = ($("#interest").val());
     var experience = $("#experience").val();
     var personality = $("#personality").val();
     var available = $("#availablity").val();
@@ -96,7 +96,7 @@ $(document).ready(function() {
       $(".ruby").hide();
       $(".cnet").hide();
     } $("#under-18").hide()
-      $("#foot").show();
+      $("#answer").show();
       $(".name").text(name);
 
 

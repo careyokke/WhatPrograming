@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>What you should choose!!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,75 +12,60 @@
   <body>
     <div class="container">
       <div id="age">
-      <h1>Join and Learn our Guild!!!</h1>
-      <p>To match your position or what "job" you will be assigned, we need a little bit of your information:</p>
-      <form id="formOne">
-
-        <label for="name">Enter your Name:</label>
-        <input id="name" class="form-control" type="text">
-
-        <label for="available">Availablity:</label>
-
-        <select class="form-control" id="available">
-          <option value="0"></option>
-          <option value="M">Morning</option>
-          <option value="M">Evening</option>
-          <option value="O">Night</option>
-          <option value="P">24 Hours</option>
-        </select>
-
-        <label for="interest">Interest:</label>
-
-        <select class="form-control" id="interest">
-          <option value="0"></option>
-          <option value="I">Art</option>
-          <option value="J">Writing</option>
-          <option value="K">Game</option>
-          <option value="L">Puzzle</option>
-        </select>
-
-        <label for="experience:">Experience:</label>
-
-        <select class="form-control" id="experience">
-          <option value="0"></option>
-          <option value="A">Customer Service</option>
-          <option value="B">Artist</option>
-          <option value="C">Teacher</option>
-          <option value="D">Engineer/Technician</option>
-        </select>
-
-        <label for="personality">Personality:</label>
-
-        <select class="form-control" id="personality">
-          <option value="0"></option>
-          <option value="E">Adventurous</option>
-          <option value="F">Imaginative</option>
-          <option value="G">Independent</option>
-          <option value="H">Intelligent</option>
-        </select>
-
-        <label for="mood:">Mood:</label>
-
-        <select class="form-control" id="mood">
-          <option value="0"></option>
-          <option value="Q">Sad</option>
-          <option value="R">Happy</option>
-          <option value="S">Bore</option>
-          <option value="T">Excited</option>
-        </select><br>
-
-        <button type="submit" class="btn">Start begin your adventure journey!!</button>
-
-        <div id="foot">
-         <h1>Congratulation!</h1>
-         <p>Thank you for your partipation, <span class="name"></span>!</p>
-         <p>This is what we think you might be a fit for but you can always learn any other skills so you can know it all <span class="total"></span>
-         </div>
-      </form>
-      <div class="javaandroid">
-        <img src="img/javaandroid.jpg" >
-        <img src="img/javaandroid1.jpg" >
-        <br>
+        <h1>Join and Learn our Guild!!!</h1>
+        <p>To match your position or what "job" you will be assigned, we need a little bit of your information:</p>
+        <form id="formOne">
+          <label for="name">Enter your Name:</label>
+          <input id="name" class="form-control" type="text">
+          <label for="available">Availablity:</label>
+            <select class="form-control" id="available">
+              <option value="0"></option>
+              <option value="M">Morning</option>
+              <option value="M">Evening</option>
+              <option value="O">Night</option>
+              <option value="P">24 Hours</option>
+            </select>
+          <label for="interest">Interest:</label>
+          <select class="form-control" id="interest">
+            <option value="0"></option>
+            <option value="I">Art</option>
+            <option value="J">Writing</option>
+            <option value="K">Game</option>
+            <option value="L">Puzzle</option>
+          </select>
+          <label for="experience:">Experience:</label>
+          <select class="form-control" id="experience">
+            <option value="0"></option>
+            <option value="A">Customer Service</option>
+            <option value="B">Artist</option>
+            <option value="C">Teacher</option>
+            <option value="D">Engineer/Technician</option>
+          </select>
+          <label for="personality">Personality:</label>
+          <select class="form-control" id="personality">
+            <option value="0"></option>
+            <option value="E">Adventurous</option>
+            <option value="F">Imaginative</option>
+            <option value="G">Independent</option>
+            <option value="H">Intelligent</option>
+          </select>
+          <label for="mood:">Mood:</label>
+          <select class="form-control" id="mood">
+            <option value="0"></option>
+            <option value="Q">Sad</option>
+            <option value="R">Happy</option>
+            <option value="S">Bore</option>
+            <option value="T">Excited</option>
+          </select><br>
+            <button type="submit" class="btn">Start begin your adventure journey!!</button>
+        </form>
+          <h1>Congratulation!</h1>
+          <p>Thank you for your partipation, <span class="name"></span>!</p>
+          <p>This is what we think you might be a fit for but you can always learn any other skills so you can know it all!<span class="total"></span>
+        </div>
+          <div class="javaandroid">
+          <img src="img/javaandroid.jpg" >
+          <img src="img/javaandroid1.jpg" ><br>
         <h2> Java and android </h2>
         <ul>
           <li>Recommended for people with no programming or app developer experience</li>
@@ -89,19 +75,16 @@
           <li>Enterprenueres who want to learn app development and save money on development and outsourcing</li>
         </ul>
       </div>
-
-
-      <div class="cnet">
-        <img src="img/cnet.jpg"  >
-        <img src="img/cnet1.jpg" >
-        <br>
-        <h2>C# and .NET</h2>
-        <ul>
-          <li>A Beginner and experienced .NET/C# developers</li>
-          <li>Anyone interested in modern approaches to data query</li>
-          <li>Database administrators interested in writing data query C#</li>
-        </ul>
-      </div>
+        <div class="cnet">
+          <img src="img/cnet.jpg"  >
+          <img src="img/cnet1.jpg" ><br>
+          <h2>C# and .NET</h2>
+            <ul>
+              <li>A Beginner and experienced .NET/C# developers</li>
+              <li>Anyone interested in modern approaches to data query</li>
+              <li>Database administrators interested in writing data query C#</li>
+            </ul>
+          </div>
 
 
       <div class="cssdesign">

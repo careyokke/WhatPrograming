@@ -6,9 +6,10 @@ h1 {
   text-align: center;
 }
 
-p,img {
+p {
   text-align: center;
-
+  font-size: 15px;
+  color: red;
 }
 
 span {
@@ -29,6 +30,6 @@ h3 {
   text-align: center;
 }
 
-.ruby, .cssdesign, .javaandroid, .cnet ,#foot {
+.ruby, .cssdesign, .javaandroid, .cnet ,#answer {
   display: none;
 }
