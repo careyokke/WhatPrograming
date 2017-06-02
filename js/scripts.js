@@ -96,7 +96,7 @@ $(document).ready(function() {
       $(".ruby").hide();
       $(".cnet").hide();
     } $("#under-18").hide()
-      $("#answer").show();
+      $("#answer").toggle();
       $(".name").text(name);
 
 

@@ -1,4 +1,18 @@
-#age, #under-18 {
+html {
+background-color: lightblue;
+
+}
+
+* {
+background-color: lightyellow;
+
+
+}
+button {
+color: blue
+}
+
+#age, #under-18, #answer{
   display: none;
 }
 
