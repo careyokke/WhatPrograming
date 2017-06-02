@@ -1,4 +1,17 @@
 $(document).ready(function() {
+  var age = parseInt(prompt("Are you older than 18??"));
+
+  if (age > 18) {
+    $('#age').show();
+  } else if (age === 18) {
+    alert("Not allowed in this GUILD YET!");
+    $('#age').show();
+  } else {
+    $('#under-21').show();
+  }
+});
+
+$(document).ready(function() {
   $("#formOne").submit(function(event) {
     var javaandroid = 0;
     var cssdesign = 0;
@@ -7,7 +20,18 @@ $(document).ready(function() {
     var interest = parseInt($("#interest").val());
     var experience = $("#experience").val();
     var personality = $("#personality").val();
+    var availablity = $("#availablity").val();
     var name  = $("#name").val();
+
+    if(availablity === 'M') {
+      cnet += 1;
+    } else if (availablity === 'N') {
+      cssdesign += 1;
+    } else if (availablity === 'O') {
+      javaandroid += 1;
+    } else if (availablity === 'P') {
+      ruby += 1;
+    }
 
     if(interest === 'I') {
       cnet += 1;
@@ -62,7 +86,8 @@ $(document).ready(function() {
     }
       $("#foot").show();
       $(".name").text(name);
-    
+
+
     event.preventDefault();
   });
 });

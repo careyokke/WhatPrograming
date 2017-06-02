@@ -1,4 +1,6 @@
-
+#age, #under18 {
+  display: none;
+}
 
 h1 {
   text-align: center;
@@ -20,12 +22,11 @@ li {
 h2 {
   font-size: 30px;
 
-  text-align: center;
 }
 
-img {
-
-
+h3 {
+  color:red;
+  text-align: center;
 }
 
 .ruby, .cssdesign, .javaandroid, .cnet ,#foot {
