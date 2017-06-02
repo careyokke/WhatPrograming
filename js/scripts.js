@@ -6,8 +6,8 @@ $(document).ready(function() {
   } else if (age === 18) {
     alert("Not allowed in this GUILD YET!");
     $('#age').show();
-  } else {
-    $('#under-21').show();
+  } else if (age < 18) {
+    $('#under-18').show();
   }
 });
 
@@ -20,16 +20,17 @@ $(document).ready(function() {
     var interest = parseInt($("#interest").val());
     var experience = $("#experience").val();
     var personality = $("#personality").val();
-    var availablity = $("#availablity").val();
+    var available = $("#availablity").val();
+    var mood = $("#mood").val();
     var name  = $("#name").val();
 
-    if(availablity === 'M') {
+    if(available === 'M') {
       cnet += 1;
-    } else if (availablity === 'N') {
+    } else if (available === 'N') {
       cssdesign += 1;
-    } else if (availablity === 'O') {
+    } else if (available === 'O') {
       javaandroid += 1;
-    } else if (availablity === 'P') {
+    } else if (available === 'P') {
       ruby += 1;
     }
 
@@ -63,6 +64,17 @@ $(document).ready(function() {
       javaandroid += 1;
     }
 
+    if(mood === 'Q') {
+      cnet += 1;
+    } else if (mood === 'R') {
+      cssdesign += 1;
+    } else if (mood === 'S') {
+      javaandroid += 1;
+    } else if (mood === 'T') {
+      ruby += 1;
+    }
+
+
     if (cnet >= ruby && cnet >= javaandroid && cnet >= cssdesign) {
       $(".cnet").show();
       $(".cssdesign").hide();
@@ -83,7 +95,7 @@ $(document).ready(function() {
       $(".cssdesign").hide();
       $(".ruby").hide();
       $(".cnet").hide();
-    }
+    } $("#under-18").hide()
       $("#foot").show();
       $(".name").text(name);
 
